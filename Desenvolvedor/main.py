@@ -1,4 +1,6 @@
 # Estágio - Ribeirão Preto
+# Autor : Thiago Dorfman Lufchitz
+# Universitario : TADS 2º semestre
 # Pergunta 2 de 2
 # Técnica:
 
@@ -28,7 +30,8 @@
 # 5) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está, 
 # mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. 
 # Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
-import fibonacci
+from fibonacci import fibonacciNumero
+from fibonacci import fibonacci
 from contraLetras import InitcontarLetras 
 import imprimirSoma
 def sequencia():
@@ -38,12 +41,23 @@ def sequencia():
     seq_d = [4,16,36,64]
     seq_e = [1,1,2,3,5,8]
     seq_f = [2,10,12,16,17,18,19]
-    print ("a) ", seq_a,", __")
-    print ("b) ", seq_b,", __")
-    print ("c) ", seq_c,", __")
-    print ("d) ", seq_d,", __")
-    print ("e) ", seq_e,", __")
-    print ("f) ", seq_f,", __")
+    print("a) ", seq_a,", __")
+    print("a) ", seq_a = seq_a.append(seq_a[-1] + 2))
+    
+    print("b) ", seq_b,", __")
+    print("b) ", seq_b = seq_b.append(seq_a[-1] * 2))
+    
+    print("c) ", seq_c,", __")
+    print("c) ", seq_c = seq_c.append((len(seq_c))**2))
+        
+    print("d) ", seq_d,", __")
+    print("d) ", seq_d = seq_d.append((len(seq_d) * 2 )**2))
+    
+    print("e) ", seq_e,", __")
+    print("e) ", fibonacciNumero(len(seq_e)))
+    
+    print("f) ", seq_f,", __")
+    print("f) ", seq_f = seq_f.append(seq_f[-1] + 1))
 
 def luzes():
     print("Essa questao vi em um Seriado se chama 'alice in borderland' acho que era no 5 jogo da serie era esse enigima")
