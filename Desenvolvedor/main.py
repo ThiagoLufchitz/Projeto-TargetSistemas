@@ -54,7 +54,7 @@ def sequencia():
     print("d) ", seq_d = seq_d.append((len(seq_d) * 2 )**2))
     
     print("e) ", seq_e,", __")
-    print("e) ", fibonacciNumero(len(seq_e)))
+    print("e) ", seq_e = seq_e.append(seq_e[-1] + seq_e[-2]))
     
     print("f) ", seq_f,", __")
     print("f) ", seq_f = seq_f.append(seq_f[-1] + 1))
